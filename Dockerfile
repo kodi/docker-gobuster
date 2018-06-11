@@ -20,5 +20,6 @@ RUN apk add -U git go && \
   rm -rf /gopath/pkg && \
   rm -rf /gopath/src && \
   rm -rf /var/cache/apk/*
+  
 
 ENTRYPOINT ["/gopath/bin/gobuster"]
